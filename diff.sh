@@ -3,15 +3,16 @@
 function copyDotfiles() {
     cp ~/.aliases .;
     cp ~/.bash_profile .;
-    cp ~/.bash_prompt .;
-    cp ~/.bashrc .;
-    cp ~/.exports .;
+    cp ~/.zshrc .;
+    cp ~/.p10k.zsh .;
+    # cp ~/.bash_prompt .;
+    # cp ~/.bashrc .;
+    # cp ~/.exports .;
     cp ~/.flake8 .;
-    cp ~/.functions .;
+    # cp ~/.functions .;
     cp ~/.gitconfig .;
     cp ~/.gitignore .;
-    cp ~/.inputrc .;
-    cp ~/.vimrc .;
+    # cp ~/.inputrc .;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
