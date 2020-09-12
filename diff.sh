@@ -4,15 +4,15 @@ function copyDotfiles() {
     cp -R ~/.iterm2 .;
     cp ~/.aliases .;
     cp ~/.bash_profile .;
-    cp ~/.zshrc .;
+    cp ~/.flake8 .;
+    cp ~/.gitconfig .;
+    cp ~/.gitignore .;
     cp ~/.p10k.zsh .;
+    cp ~/.zshrc .;
     # cp ~/.bash_prompt .;
     # cp ~/.bashrc .;
     # cp ~/.exports .;
-    cp ~/.flake8 .;
     # cp ~/.functions .;
-    cp ~/.gitconfig .;
-    cp ~/.gitignore .;
     # cp ~/.inputrc .;
 }
 
