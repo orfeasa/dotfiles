@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 function copyDotfiles() {
+    cp -R ~/.iterm2 .;
     cp ~/.aliases .;
     cp ~/.bash_profile .;
     cp ~/.zshrc .;
