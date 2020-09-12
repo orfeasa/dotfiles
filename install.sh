@@ -5,7 +5,7 @@ function syncDotfiles() {
         --exclude ".DS_Store" \
         --exclude "install.sh" \
         --exclude "diff.sh" \
-        --exclude "README.md" \
+        --exclude "readme.md" \
         --exclude "LICENSE" \
         -avh --no-perms . ~;
 	source ~/.bash_profile;

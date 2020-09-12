@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function copyDotfiles() {
-    cp -R ~/.iterm2 .;
+    cp -R ~/.iterm2_profile .;
     cp ~/.aliases .;
     cp ~/.bash_profile .;
     cp ~/.flake8 .;
