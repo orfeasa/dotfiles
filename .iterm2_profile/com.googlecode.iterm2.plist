@@ -94,9 +94,9 @@
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>440 434 799 448 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>840 0 840 1027 0 0 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
 	<string>840 560 665 467 0 0 1680 1027 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>0 0 833 1027 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1318,9 +1318,9 @@
 	<key>NoSyncInstallationId</key>
 	<string>5FCF0D6A-8950-4F4D-B17A-9F5DAC0F950E</string>
 	<key>NoSyncLastTipTime</key>
-	<real>621544488.85461998</real>
+	<real>621776450.06216097</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>12</integer>
+	<integer>14</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2050,6 +2050,8 @@
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -2086,6 +2088,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/orfeas/.iterm2_profile</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -2095,7 +2099,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-09-11T17:22:11Z</date>
+	<date>2020-09-14T11:40:52Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
