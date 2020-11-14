@@ -45,5 +45,6 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-# Set up python virtual env
+# Set up and activate python virtual env
 alias venv='python3 -m venv venv'
+alias activate="source venv/bin/activate"

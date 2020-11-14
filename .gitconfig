@@ -43,3 +43,8 @@
 	# Detect copies as well as renames
     # https://git-scm.com/docs/git-config#Documentation/git-config.txt-diffrenames
 	renames = copies
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
