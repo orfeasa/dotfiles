@@ -3,17 +3,13 @@
 function copyDotfiles() {
     cp -R ~/.iterm2_profile .;
     cp ~/.aliases .;
+    cp ~/.path .;
     cp ~/.bash_profile .;
     cp ~/.flake8 .;
     cp ~/.gitconfig .;
     cp ~/.gitignore .;
     cp ~/.p10k.zsh .;
     cp ~/.zshrc .;
-    # cp ~/.bash_prompt .;
-    # cp ~/.bashrc .;
-    # cp ~/.exports .;
-    # cp ~/.functions .;
-    # cp ~/.inputrc .;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

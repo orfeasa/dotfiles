@@ -1,11 +1,11 @@
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-# for file in ~/.{aliases}; do
-# 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
-# done;
-# unset file;
-source ~/.aliases
+for file in ~/.{aliases,path};
+do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
