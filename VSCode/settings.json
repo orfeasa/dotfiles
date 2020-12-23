@@ -1,0 +1,67 @@
+{
+    "window.zoomLevel": -1,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.startupEditor": "newUntitledFile",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotVerifyTags": true,
+    "cSpell.language": "en-GB",
+    "spellchecker.language": "en_GB-ise",
+    "cSpell.userWords": [
+        "bluetooth",
+        "checklist",
+        "crunchbase",
+        "deques",
+        "inbox",
+        "inorder",
+        "linting",
+        "mypy",
+        "orfeas",
+        "podcast",
+        "subarray",
+        "thessaloniki"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "editor.formatOnSave": true,
+    "python.languageServer": "Pylance",
+    "editor.minimap.renderCharacters": false,
+    "terminal.integrated.rendererType": "dom",
+    "telemetry.enableTelemetry": false,
+    "editor.fontSize": 14,
+    "python.testing.unittestEnabled": true,
+    "python.showStartPage": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 13,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "editor.wordWrap": "on",
+    "go.useLanguageServer": true,
+    "terminal.integrated.copyOnSelection": true,
+    "workbench.colorTheme": "Atom One Dark"
+}

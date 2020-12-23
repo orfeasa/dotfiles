@@ -12,6 +12,14 @@ to check what will change and prevent loss of information (possibly generated).
 ./install.sh
 ```
 
+For VS Code, the `settings.json` needs to be moved to the dotfiles folder and a symlink needs to be created.
+This can be done with the following commands:
+
+```sh
+mv ~/Library/Application\ Support/Code/User/settings.json ~/VSCode/ln -s ~/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+```
+
+
 ## License
 
 This software is licensed under the MIT license. For more information, read the [LICENSE](LICENSE) file.

@@ -5,11 +5,11 @@ function copyDotfiles() {
     cp ~/.aliases .;
     cp ~/.path .;
     cp ~/.bash_profile .;
-    cp ~/.flake8 .;
     cp ~/.gitconfig .;
     cp ~/.gitignore .;
     cp ~/.p10k.zsh .;
     cp ~/.zshrc .;
+    cp ~/VSCode/settings.json ./VSCode/
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
